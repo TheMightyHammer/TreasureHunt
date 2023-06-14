@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template: repeat(4, 200px)/repeat(3,200px);
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+
+    margin-top: 0%;
+}
+h1 {
+    font-family: 'Pirata One', cursive;
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+.box {
+    
+}
+.boxbutton {
+    grid-column: 1/ span 3;
+    justify-self: center;
+    
+}
+.button {
+    border-radius: 10pt;
+    border: none;
+    box-shadow: 5px 5px black;
+    font-family: 'Pirata One', cursive;
+    width: 300px;
+    font-size: 2rem;
+    
+}
+
+.filter {
+    filter: blur(5px);
+}
+body {
+    background: linear-gradient(#FAF0E4,#ff8551a1);
+    height: 100vh;
+}
